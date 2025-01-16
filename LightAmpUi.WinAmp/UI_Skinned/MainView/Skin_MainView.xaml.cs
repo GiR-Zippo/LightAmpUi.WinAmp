@@ -18,6 +18,7 @@ using BardMusicPlayer.Ui.Functions;
 using BardMusicPlayer.Seer;
 using Skin.Ui.Globals.SkinContainer;
 using Skin.Ui.Globals;
+using BardMusicPlayer.Ui.Windows;
 
 namespace Skin.Ui
 {

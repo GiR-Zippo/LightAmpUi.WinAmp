@@ -216,7 +216,7 @@
                 <ColumnDefinition Width="42"/>
 
             </Grid.ColumnDefinitions>
-            <Button Grid.Column="1" Style="{StaticResource ImageButton}" x:Name="Prev_Button"  HorizontalAlignment="Left" Click="Prev_Button_Click"  PreviewMouseUp="Prev_Button_Up"  PreviewMouseDown="Prev_Button_Down"   BorderThickness="0" Width="34.5" Height="27" />
+            <Button Grid.Column="1" Style="{StaticResource ImageButton}" x:Name="Prev_Button"  HorizontalAlignment="Left" Click="Prev_Button_Click"  PreviewMouseUp="Prev_Button_Up"  PreviewMouseDown="Prev_Button_Down"   BorderThickness="0" Width="34.5" Height="27"/>
             <Button Grid.Column="2" Style="{StaticResource ImageButton}" x:Name="Play_Button"  HorizontalAlignment="Left" Click="Play_Button_Click"  PreviewMouseUp="Play_Button_Up"  PreviewMouseDown="Play_Button_Down"   BorderThickness="0" Width="34.5" Height="27"/>
             <Button Grid.Column="3" Style="{StaticResource ImageButton}" x:Name="Pause_Button" HorizontalAlignment="Left" Click="Pause_Button_Click" PreviewMouseUp="Pause_Button_Up" PreviewMouseDown="Pause_Button_Down"  BorderThickness="0" Width="34.5" Height="27"/>
             <Button Grid.Column="4" Style="{StaticResource ImageButton}" x:Name="Stop_Button"  HorizontalAlignment="Left" Click="Stop_Button_Click"  PreviewMouseUp="Stop_Button_Up"  PreviewMouseDown="Stop_Button_Down"   BorderThickness="0" Width="34.5" Height="27"/>

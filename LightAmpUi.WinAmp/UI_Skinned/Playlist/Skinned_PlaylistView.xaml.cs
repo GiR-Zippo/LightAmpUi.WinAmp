@@ -287,12 +287,12 @@ namespace Skin.Ui
             RefreshPlaylist();
         }
 
-        private void AddFolder_Click(object sender, RoutedEventArgs e)
+        private async void AddFolder_Click(object sender, RoutedEventArgs e)
         {
             if (_currentPlaylist == null)
                 return;
 
-            if (!PlaylistFunctions.AddFolderToPlaylist(_currentPlaylist))
+            if (!await PlaylistFunctions.AddFolderToPlaylist(_currentPlaylist))
                 return;
 
             RefreshPlaylist();
