@@ -13,7 +13,6 @@ using BardMusicPlayer.Maestro;
 using BardMusicPlayer.Pigeonhole;
 using BardMusicPlayer.Transmogrify.Song;
 using BardMusicPlayer.Ui;
-using BardMusicPlayer.Ui.Classic;
 using BardMusicPlayer.Ui.Functions;
 using BardMusicPlayer.Seer;
 using Skin.Ui.Globals.SkinContainer;
